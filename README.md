@@ -2,17 +2,25 @@
 Making 3D TicTacToe using processing
 
 # How to play/ Control
-w - move actor into \n
+w - move actor into
+
 s - move actor out of
+
 a - move actor to the left 
+
 d - move actor to the right
+
 DELETE - reset the position of actor to start position (defalut is in 0,0,0)
+
 space - drop sphere with color corresponding to each player
 
 # Classes
 TicTacToe3D - main runner
+
 Actor - a cursor that can be moved around and drop shpere in each cell
+
 Cell - a object representing each cell in the box
+
 Locator - a helper to manage array like adding two arrays together
 
 # Note
