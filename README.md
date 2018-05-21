@@ -2,7 +2,7 @@
 Making 3D TicTacToe using processing
 
 # How to play/ Control
-w - move actor into
+w - move actor into \n
 s - move actor out of
 a - move actor to the left 
 d - move actor to the right
