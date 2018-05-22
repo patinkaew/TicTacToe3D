@@ -3,7 +3,7 @@
 * May 2018
 */
 
-final int[] no = {5,5,1}; // number of cell in each directions (x,y,z)
+final int[] no = {3,3,3}; // number of cell in each directions (x,y,z)
 final float[] boxSize = {360,360,360}; // size of the box
 final int connect = 3; // how many connection to win the game
 final int playerNo = 2; // number of players in this game, up to 5 players
@@ -126,7 +126,7 @@ void setup(){
     for(int j=0; j<no[1]; j++){
       for(int k=0; k<no[2]; k++){
         float[] c = {cellSize[0]/2+i*cellSize[0],cellSize[1]/2+j*cellSize[1],-(cellSize[2]/2+k*cellSize[2])};//center point of each
-        table[i][j][k] = new Cell(c,cellSize);
+        table[i][j][k] = new Cell(c,cellSize, playerNo);
       }
     }
   }
