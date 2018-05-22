@@ -1,6 +1,8 @@
 # TicTacToe3D
 Making 3D TicTacToe using processing
 
+You will need Processing 3 to run. Download: https://processing.org/
+
 # How to play/ Control
 w - move actor into
 
