@@ -6,11 +6,11 @@ public class Cell{
   private boolean isFill = false;
   private boolean[] occupiedBy;
   
-  public Cell(float[] center, float[] size){
+  public Cell(float[] center, float[] size, int playerNo){
     this.center = center;
     this.size = size;
     sphereColor = new int[3];
-    occupiedBy = new boolean[2];
+    occupiedBy = new boolean[playerNo];
   }
   public float[] getCenter(){
     return center;
