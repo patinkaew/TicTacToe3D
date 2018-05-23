@@ -12,6 +12,10 @@ a - move actor to the left
 
 d - move actor to the right
 
+i - move actor up
+
+k - move actor down
+
 DELETE - reset the position of actor to start position (defalut is in 0,0,0)
 
 space - drop sphere with color corresponding to each player
